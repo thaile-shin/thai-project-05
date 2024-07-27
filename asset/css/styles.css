@@ -7,3 +7,38 @@
 .body {
     font-family: system-ui, sans-serif;
 }
+
+.container {
+    padding: 0;
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100px;
+    margin-bottom: 30px;
+
+    background: orange;
+
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.inner-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 100px;
+    margin-bottom: 30px;
+
+    background: orange;
+
+    font-size: 30px;
+    font-weight: 600;
+}
+
